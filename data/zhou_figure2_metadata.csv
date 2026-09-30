@@ -1,0 +1,30 @@
+field,value
+source_authors,Xinkai Zhou; Qiang Heng; Eric C. Chi; Hua Zhou
+source_title,Proximal MCMC for Bayesian Inference of Constrained and Regularized Estimation
+source_item,Lasso diabetes.ipynb
+source_role,authors' public demonstration notebook
+target_figure,Figure 2
+dataset,Efron et al. diabetes
+n,442
+p,10
+response_scaling,y divided by sample SD as implemented in notebook
+predictor_scaling,X used as supplied in diabetes-442-10.csv
+ProxMCMC_lambda,0.001
+ProxMCMC_sigma2_prior,"IG(0.01, 0.01)"
+ProxMCMC_alpha_prior,"IG(1, 12)"
+ProxMCMC_samples,10000 posterior draws requested by DynamicHMC call
+Bayesian_lasso_package,monomvn::blasso
+Bayesian_lasso_MCMC_T,10000
+Bayesian_lasso_thin,10
+bls-RJ-F,RJ = FALSE
+bls-RJ-T,RJ = TRUE
+horseshoe_package,horseshoe
+horseshoe_method_tau,truncatedCauchy
+horseshoe_method_sigma,Jeffreys
+selective_inference_packages,glmnet; selectiveInference
+selective_inference_selection,10-fold CV; lambda.1se
+selective_inference_selected_variables,x2; x3; x4; x7; x9
+interval_level,0.95
+extraction_status,transcribed from numerical outputs stored in uploaded notebook
+point_estimates,"not entered because Figure-2 notebook outputs used here record interval endpoints, not a common point-estimate object for all methods"
+missing_SelInf_intervals,blank endpoints indicate variable was not selected before selective inference
