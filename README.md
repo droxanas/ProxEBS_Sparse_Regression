@@ -72,7 +72,7 @@ python src/supp_scale_moreau.py
 
 All random-number seeds used by the reported experiments are fixed in the corresponding scripts.
 
-Study 1 reproduces the two unconstrained sparse-regression regimes and the 4,000-versus-40,000-draw posterior refinement diagnostics. Study 2 reproduces the soft-affine experiment, the baseline and geometry-aware calculations at the strongest affine setting, and the reported matched-time timestep audit. Study 3 reproduces the diabetes analysis, including the extended SAPG calibration, corrected nonsmoothed and smoothed MAP calculations, the 80,000-draw posterior analysis, the full decision grid, and the external interval comparison. The two supplementary scripts reproduce the hard homogeneous sum-zero calibration experiment and the observation-scale/Moreau-parameter sensitivity analysis.
+Study 1 reproduces the two unconstrained sparse-regression regimes and the 4,000-versus-40,000-draw posterior refinement diagnostics. Study 2 reproduces the soft-affine experiment, the baseline and geometry-aware calculations at the strongest affine setting, and the reported matched-time timestep audit. Study 3 reproduces the diabetes analysis, including the extended SAPG calibration, nonsmoothed and smoothed MAP calculations, the 80,000-draw posterior analysis, the full decision grid, and the external interval comparison. The two supplementary scripts reproduce the hard homogeneous sum-zero calibration experiment and the observation-scale/Moreau-parameter sensitivity analysis.
 
 ## Diabetes data and external benchmark
 
