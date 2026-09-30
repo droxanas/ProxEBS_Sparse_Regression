@@ -101,3 +101,13 @@ The current supplementary manuscript is included as `supplement.pdf`. It records
 ## Citation
 
 If you use this code, please cite the accompanying manuscript. Full publication details will be added here when available.
+
+## License
+
+Except for the third-party data and benchmark material in `data/`, the
+contents of this repository, including the source code and
+`supplement.pdf`, are released under the GNU General Public License
+v3.0; see `LICENSE`.
+
+The files in `data/` retain the provenance and any applicable terms of
+their original sources, as described above.
